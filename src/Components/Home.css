@@ -1,0 +1,86 @@
+#header{
+    background-color: bisque;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    top:0;
+    left:0;
+    width: 100%;
+    position: fixed;
+}
+#header-left{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#header-right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#header-right button{
+    margin-right: 50px;
+    height: 40px;
+    width: 70px;
+}
+#head{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    column-gap: 50px;
+}
+#container{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+#login{
+    border: 1px solid rgb(35, 35, 36);
+    width:80px;
+    height: 20px;
+    background-color: rgb(13, 171, 224);
+    color: aliceblue;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 40px;
+
+}
+#btn-1:hover{
+    background-color: brown;
+    width:70px;
+    height: 50px;
+}
+#btn-2:hover{
+    background-color: brown;
+    width:70px;
+    height: 50px;
+}
+#btn-3:hover{
+    background-color: brown;
+    width:70px;
+    height: 50px;
+    color: white;
+}
+#btn-1{
+    background-color: rgba(244, 194, 119, 0.596);
+}
+#btn-2{
+    background-color: rgba(244, 194, 119, 0.596);
+}
+#btn-3{
+    background-color: rgba(244, 194, 119, 0.596);
+}
+#btn-1 a{
+    text-decoration: none;
+    color: rgb(11, 11, 11);
+}
+#btn-2 a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+#btn-1 a:hover{
+ color: white;
+}
+#btn-2 a:hover{
+color: white;
+}
